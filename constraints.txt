@@ -1,0 +1,7 @@
+torch==2.8.0
+torchvision==0.23.0
+triton-windows==3.4.0.post21; sys_platform == 'win32'
+numpy==1.26.4
+opencv-python==4.11.0.86
+websockets==15.0.1
+av==17.1.0

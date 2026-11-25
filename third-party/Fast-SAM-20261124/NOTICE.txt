@@ -1,0 +1,3 @@
+Fast upstream: https://github.com/yangtiming/Fast-SAM-3D-Body, commit d72aa36913a1673ace029d345f437561a85ec9e2. Bundled Fast source retains upstream MIT LICENSE and Meta copyright headers; Meta SAM terms copied under licenses.
+FlowHMR/Persona and Ultralytics are distinct components; their existing licenses remain applicable. YOLO26m weights are included from official Ultralytics/YOLO26 pinned revision 070ac3c51435984d992ba92eb3f234daf4e4500d, SHA256 401cea9ab23ad19246ff7744859816bc599f350e93c9dd30367b6f0a0745d0b7. Ultralytics AGPL license is included. SAM/MHR/FlowHMR pretrained weights are NOT included. Preserve model asset licenses in the destination.
+This is a migration handoff, not a blanket relicensing of original software or weights.

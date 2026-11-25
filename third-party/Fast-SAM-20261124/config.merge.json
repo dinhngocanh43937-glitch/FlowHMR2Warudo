@@ -1,0 +1,7 @@
+{
+  "fast_sam_enabled": true,
+  "fast_sam_compile_crop": true,
+  "fast_sam_zero_mask_contract": true,
+  "fast_sam_feedback": true,
+  "fast_sam_prompt_cache": true
+}

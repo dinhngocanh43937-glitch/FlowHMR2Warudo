@@ -1,0 +1,31 @@
+{
+  "project": "FlowHMR2Warudo Windows Fast SAM handoff",
+  "fast_upstream_url": "https://github.com/yangtiming/Fast-SAM-3D-Body",
+  "commit": "d72aa36913a1673ace029d345f437561a85ec9e2",
+  "server_verified_source_archive_sha256": "a1ed67554cc719e898e1d7a19606df68732fd139c569063b489d3ddb568c0f87",
+  "included_weights": [
+    "yolo26m.pt"
+  ],
+  "weights_replacement_required": false,
+  "windows_gpu_validated": false,
+  "adaptations": [
+    "Flow feature decoder max layers and final-output skip",
+    "debug-sync gating",
+    "slim intermediate output adapter",
+    "fused crop",
+    "zero-mask specialization conditional on input contract",
+    "sparse pose feedback",
+    "per-decoder prompt cache"
+  ],
+  "differences_from_server_adapter": [
+    "namespaced modules and relocatable fast_impl root",
+    "explicit per-backend configuration flags",
+    "MHR schema guard",
+    "compile_crop can explicitly run eager when compilation is disabled"
+  ],
+  "reference_backend": "Previously delivered Windows standalone backend, not a claim about current Windows workspace",
+  "sam_weights_replacement_required": false,
+  "yolo_weights_replacement": "Only if currently on YOLOX or different YOLO weight; reuse same-hash YOLO26m",
+  "flow_hmr_modules": "Exact current server files; identical to previous Windows standalone handoff",
+  "yolo_adaptor": "Exact current server file"
+}

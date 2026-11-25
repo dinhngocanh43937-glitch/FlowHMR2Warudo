@@ -1,0 +1,8 @@
+# Install CUDA Torch separately first; engine dependencies are in engine/pyproject.toml.
+-c constraints.txt
+-e ./engine
+av==17.1.0
+Pillow>=10
+ultralytics==8.4.0
+polars==0.20.31
+ultralytics-thop==2.0.18
